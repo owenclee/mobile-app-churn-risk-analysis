@@ -190,14 +190,14 @@ Because Android and iPhone churn rates were nearly identical, the retention stra
 
 ## Limitations
 
-This project uses synthetic data, so the findings should be interpreted as a portfolio case study rather than real Waze business performance.
+This project uses synthetic data, so the results should be interpreted as an applied analytics case study rather than evidence of actual Waze user behavior.
 
-The dataset does not include revenue, geography, acquisition channel, marketing exposure, user demographics, or app feature-level event logs. Those fields would allow a deeper retention analysis.
+The dataset is also limited to user activity, driving behavior, account age, and device type. Additional fields such as revenue, acquisition channel, geography, marketing exposure, demographics, or detailed app-event data would support a more complete churn analysis.
 
-The models are useful for prioritization, but they should not be treated as automated decision systems. A real retention program would need experimentation, campaign testing, and post-intervention measurement to confirm whether targeting high-risk users improves retention.
+The model is best understood as a prioritization tool, not an automated decision system. In a real product setting, the next step would be to test any retention strategy through controlled experiments.
 
 ## Summary
 
-This project found that churn risk was tied more strongly to activity consistency and account age than to raw usage volume or device type.
+This project found that churn risk was associated more strongly with usage consistency and account age than with raw usage volume.
 
-The strongest business takeaway is that retention teams should not only look for users with low total usage. They should also identify users who show bursty, inconsistent usage patterns, especially earlier in the user lifecycle.
+The highest-risk users had fewer active days, fewer driving days, and lower tenure, even though they averaged more sessions and drives. This suggests that the retention opportunity is not simply to increase usage, but to help newer and less consistent users build more durable app habits.
